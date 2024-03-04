@@ -54,7 +54,7 @@ function Card(props) {
     return (
     <>
     <section className='card' style={cardStyle[props.variant]}>
-        <img className='cardImg' style={cardImgStyle[props.imgStyle]} src={props.ilustration} />
+        <img className='cardImg' style={cardImgStyle[props.imgStyle]} src={props.ilustration} alt="ilustration" />
         <div className='cardText'>
             <h3>{props.cardTitle} </h3>
             <p className='description'>{props.cardDescription} </p>
