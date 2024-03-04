@@ -17,7 +17,7 @@ function TheCredits() {
             <a 
                 aria-label='Go to Victoria Azola Github' 
                 target="_blank" 
-                href="" 
+                href="https://github.com/VickyAzola/Huddle-landing-page-with-curved-sections" 
                 rel="noreferrer"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
