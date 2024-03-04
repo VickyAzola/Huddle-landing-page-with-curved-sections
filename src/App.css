@@ -29,7 +29,7 @@
     .stats-container {
         background-image: url('/images/bg-section-top-desktop-1.svg');
         background-size: contain;
-       padding: 9rem 1rem 15rem;
+       padding: 8rem 1rem 14rem;
         display: flex;
         justify-content: space-around;
     }
