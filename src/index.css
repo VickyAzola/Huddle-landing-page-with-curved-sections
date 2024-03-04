@@ -3,7 +3,7 @@
   --LightPink: hsl(321, 100%, 78%);
   --LightRed: hsl(0, 100%, 63%);
   --VeryDarkCyan: hsl(192, 100%, 9%);
-  --VeryPaleBlue: hsl(207, 100%, 98%);
+  --VeryPaleBlue: rgba(246, 251, 255, 1);
   }
 
 * {
