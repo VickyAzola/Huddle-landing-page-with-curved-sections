@@ -1,0 +1,16 @@
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: .7rem;
+}
+
+.social-container svg {
+    width: 1.5rem;
+    fill:white;
+}
+
+.social-container a:hover svg, .social-container a:hover path {
+    fill: var(--LightPink);
+    cursor: pointer;
+}

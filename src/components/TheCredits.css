@@ -1,0 +1,36 @@
+.credits {
+    text-align: center;
+    font-size: .7rem;
+    color: rgb(168, 168, 168);
+    padding: 1rem 0;
+}
+
+.credits a {
+    margin-inline: .2rem;
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.credits a:hover {
+    color: var(--LightPink);
+    cursor: pointer;
+}
+
+.credits svg {
+    width: 1rem;
+    height: 1rem;
+    fill: rgb(168, 168, 168);
+    margin-right: .2rem;
+}
+
+.credits a:hover svg, .credits a:hover path {
+    fill: var(--LightPink);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    .credits {
+        padding: 0;
+    }
+}

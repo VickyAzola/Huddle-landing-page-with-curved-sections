@@ -1,0 +1,25 @@
+.stats {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.stats img {
+    width: 1.5rem;
+}
+
+.stats h2 {
+    font-size: 3rem;
+}
+
+.stats p {
+    font-size: .9rem;
+    color: lightslategray;
+}
+
+@media screen and (min-width: 700px) {
+    .stats h2 {
+        font-size: 3.5rem;
+    }
+}

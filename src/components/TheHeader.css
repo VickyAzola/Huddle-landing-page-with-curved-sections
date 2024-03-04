@@ -1,0 +1,98 @@
+header {
+    padding-inline: 1.5rem;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+
+nav .logo {
+    width: 7rem;
+}
+
+header section {
+    margin-top: 9rem;
+    padding-inline: .5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--VeryDarkCyan);
+    margin-bottom: 1.2rem;
+}
+
+header section p {
+    font-size: .9rem;
+    color: var(--VeryDarkCyan);
+}
+
+header section button {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.devices {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        padding-inline: 3rem;
+        text-align: center;
+    }
+    
+    nav {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 2rem;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    nav .logo {
+        width: 10rem;
+    }
+    
+    header section {
+        margin-top: 13rem;
+        padding-inline: 5rem;
+    }
+    
+    h1 {
+        font-size: 2.7rem;
+        color: var(--VeryDarkCyan);
+        margin-bottom: 1.2rem;
+    }
+    
+    header section p {
+        max-width: 30rem;
+        inset-inline: 0;
+        margin: auto;
+        font-size: 1rem;
+    }
+    
+    header section button {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .devices {
+        width: 90%;
+        margin: 3rem 0;
+    }
+}
