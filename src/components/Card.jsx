@@ -35,12 +35,12 @@ function Card(props) {
         },
         cardBlue1: {
             padding: "1rem 0 2rem",
-            backgroundColor: "hsl(207, 100%, 98%)",
+            backgroundColor: "rgba(246, 251, 255, 1)",
             
         },
         cardBlue2: {
             paddingBottom: "4rem",
-            backgroundColor: "hsl(207, 100%, 98%)",
+            backgroundColor: "rgba(246, 251, 255, 1)",
         }
     }
 
